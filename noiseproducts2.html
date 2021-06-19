@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Crazy-Buyers</title>
+</head>
+
+<body>
+    <style>
+        .active {
+            background-color: orangered;
+            color: white;
+        }
+        
+        .price span1 {
+            color: grey;
+            font-size: 15px;
+            -webkit-text-decoration-line: line-through 1px solid black;
+            /* Safari */
+            text-decoration-line: line-through;
+        }
+    </style>
+
+
+    <style>
+        .logo span {
+            color: black;
+        }
+    </style>
+
+    <!-- Navigation -->
+
+    <nav class="nav">
+        <div class="wrapper container">
+            <div class="logo"><a href="index.html">Cr<span>azy</span>-Bu<span>yers</span></a></div>
+            <ul class="nav-list">
+                <div class="top">
+                    <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li>
+                    <a href="" class="desktop-item">Shop <span><i class="fas fa-chevron-down"></i></span></a>
+                    <input type="checkbox" id="showMega" />
+                    <label for="showMega" class="mobile-item">Shop <span><i class="fas fa-chevron-down"></i></span></label>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <img src="./images/woman.jpg" alt="" />
+                            </div>
+                            <div class="row">
+                                <header>Shop Layout</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Shop With Background</a></li>
+                                    <li><a href="#">Shop Mini Categories</a></li>
+                                    <li><a href="#">Shop Only Categories</a></li>
+                                    <li><a href="#">Shop Icon Categories</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Filter Layout</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Sidebar</a></li>
+                                    <li><a href="#">Filter Default</a></li>
+                                    <li><a href="#">Filter Drawer</a></li>
+                                    <li><a href="#">Filter Dropdown</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Product Layout</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Layout Zoom</a></li>
+                                    <li><a href="#">Layout Sticky</a></li>
+                                    <li><a href="#">Layout Sticky 2</a></li>
+                                    <li><a href="#">Layout Scroll</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">Blog</a></li>
+                <li>
+                    <a href="" class="desktop-item">Vendors <span><i class="fas fa-chevron-down"></i></span></a>
+                    <input type="checkbox" id="showdrop1" />
+                    <label for="showdrop1" class="mobile-item">Vendors <span><i class="fas fa-chevron-down"></i></span></label>
+                    <ul class="drop-menu1">
+                        <li><a href="">Vendor Store listings</a></li>
+                        <li><a href="">Store Details</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="" class="desktop-item">Page <span><i class="fas fa-chevron-down"></i></span></a>
+                    <input type="checkbox" id="showdrop2" />
+                    <label for="showdrop2" class="mobile-item">Page <span><i class="fas fa-chevron-down"></i></span></label>
+                    <ul class="drop-menu2">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="">Faq</a></li>
+                        <li><a href="">Page 404</a></li>
+                    </ul>
+                </li>
+                <!-- icons -->
+                <li class="icons">
+                    <span>
+            <img src="./images/shoppingBag.svg" alt="" />
+            <small class="count d-flex">0</small>
+          </span>
+                    <span><img src="./images/search.svg" alt="" /></span>
+                </li>
+            </ul>
+            <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+
+    <!-- PRODUCTS -->
+
+    <section class="section products">
+        <div class="products-layout container">
+            <div class="col-1-of-4">
+                <div>
+                    <div class="block-title">
+                        <h3>Category</h3>
+                    </div>
+
+                    <ul class="block-content">
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Shoes</span>
+                <small>(10)</small>
+              </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Bags</span>
+                <small>(7)</small>
+              </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span> Accessories</span>
+                <small>(3)</small>
+              </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Clothings</span>
+                <small>(212)</small>
+              </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Phones</span>
+                <small>(24)</small>
+              </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Backpacks</span>
+                <small>(3)</small>
+              </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Headphones</span>
+                <small>(22)</small>
+              </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="block-title">
+                        <h3>Brands</h3>
+                    </div>
+
+                    <ul class="block-content">
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Gucci</span>
+                <small>(10)</small>
+              </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Burberry</span>
+                <small>(7)</small>
+              </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span> Accessories</span>
+                <small>(3)</small>
+              </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Valentino</span>
+                <small>(3)</small>
+              </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Dolce & Gabbana</span>
+                <small>(3)</small>
+              </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Hogan</span>
+                <small>(3)</small>
+              </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Moreschi</span>
+                <small>(3)</small>
+              </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Givenchy</span>
+                <small>(3)</small>
+              </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Boat</span>
+                <small>(3)</small>
+              </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">
+                <span>Boult</span>
+                <small>(3)</small>
+              </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3-of-4">
+                <form action="">
+                    <div class="item">
+                        <label for="sort-by">Sort By</label>
+                        <select name="sort-by" id="sort-by">
+              <option value="title" selected="selected">Name</option>
+              <option value="number">Price</option>
+              <option value="search_api_relevance">Relevance</option>
+              <option value="created">Newness</option>
+            </select>
+                    </div>
+                    <div class="item">
+                        <label for="order-by">Order</label>
+                        <select name="order-by" id="sort-by">
+              <option value="ASC" selected="selected">ASC</option>
+              <option value="DESC">DESC</option>
+            </select>
+                    </div>
+                    <a href="">Apply</a>
+                </form>
+
+                <div class="product-layout">
+
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/noisecolorfit2.webp" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="productDetails.html">Noise ColorFit Pro 2-(Jet Black)</a>
+                            <div class="price">
+                                <span><span1>MRP:4,999.00</span1>₹ 2,499.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61eR-jmCAqL._SL1500_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Buds Play V2 (Onyx Black)</a>
+                            <div class="price">
+                                <span><span1>MRP:7,999.00</span1>₹ 3,499.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/51jR6miqHTS._SL1500_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Air Buds - ICY White</a>
+                            <div class="price">
+                                <span><span1>MRP:5,999.00</span1>₹ 1,999.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/41ZiGBAyMqL.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Air Buds - JET Black</a>
+                            <div class="price">
+                                <span><span1>MRP:5,999.00</span1>₹ 1,999.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61lecqJdPOS._SL1500_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise ColorFit Pro 3(Jet Black)</a>
+                            <div class="price">
+                                <span><span1>MRP:5,999.00</span1>₹ 4,499.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61Va3GTXVTS._SL1500_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Shots Neo 2 (Raven Black)</a>
+                            <div class="price">
+                                <span><span1>MRP:5,999.00</span1>₹ 2,299.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/noisefitendureblack.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">NoiseFit Endure(Charcoal Black)</a>
+                            <div class="price">
+                                <span><span1>MRP:5,999.00</span1>₹ 2,999.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/41BTS+hpeOL._SX300_SY300_QL70_FMwebp_.webp" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Shots Rush (Quick Silver)</a>
+                            <div class="price">
+                                <span><span1>MRP:6,999.00</span1>₹ 2,999.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61jD3CYjwsL._SL1500_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Tune Active(Hot Red)</a>
+                            <div class="price">
+                                <span><span1>MRP:1,999.00</span1>₹ 1,199.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61b+LAkVqlL._SL1500_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Tune Active(Jade Green)</a>
+                            <div class="price">
+                                <span><span1>MRP:2,499.00</span1>₹ 1,299.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61tcqkNYDgL._SL1500_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Shots Nuvo (Stealth Black)</a>
+                            <div class="price">
+                                <span><span1>MRP:4,999.00</span1>₹ 1,998.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61VUObUpZLL._SX522_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise ColorFit2-Smart Band</a>
+                            <div class="price">
+                                <span><span1>MRP:2,499.00</span1>₹ 1,799.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61GAg08R98L._SL1500_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Tune Active(Pop Yellow)</a>
+                            <div class="price">
+                                <span><span1>MRP:2,499.00</span1>₹ 1,199.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61id76o7VjL._SL1500_i.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Shots X5 PRO(Hot Red)</a>
+                            <div class="price">
+                                <span><span1>MRP:7,999.00</span1>₹ 2,999.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61i-P5PJsuL._SX522_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Shots Neo 2(Cobalt Blue)</a>
+                            <div class="price">
+                                <span><span1>MRP:5,999.00</span1>₹ 1,799.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61-Qm3iE-7L._SL1200_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Shots Neo 2(Lime Green)</a>
+                            <div class="price">
+                                <span><span1>MRP:5,999.00</span1>₹ 1,799.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61Jank+JwCL._SL1200_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="">Noise Shots Neo 2(Amber Orange)</a>
+                            <div class="price">
+                                <span><span1>MRP:5,999.00</span1>₹ 1,999.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/61xRneeUXhL._SL1500_.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="deepwineproductdetail.html">
+                                Noise ColorFit Pro 2-(DeepWine)</a>
+                            <div class="price">
+                                <span><span1>MRP:4,999.00</span1>₹ 2,999.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/noisevibe5w.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="noisevibe5w.html">Noise Vibe 5W(Olive Green)</a>
+                            <div class="price">
+                                <span><span1>MRP:3,999.00</span1>₹ 1,498.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/SageGreenBudssolo.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="sagegreensolobuds.html">Noise Buds Solo(Sage Green)</a>
+                            <div class="price">
+                                <span><span1>MRP:9,999.00</span1>₹ 5,499.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="img-container">
+                            <img src="./images/CelesteBluebuds.jpg" alt="" />
+                            <div class="addCart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+
+                            <ul class="side-icons">
+                                <span><i class="fas fa-search"></i></span>
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="fas fa-sliders-h"></i></span>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <a href="CelesetBlueBudsdetail.html">Noise Buds Play V2(Celeste Blue)</a>
+                            <div class="price">
+                                <span><span1>MRP:7,999.00</span1>₹ 3,499.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- PAGINATION -->
+                <ul class="pagination">
+                    <a hrfe="noiseproducts.html"><span>1</span></a>
+                    <a href="noiseproducts2.html"><span class="active">2</span></a>
+                    <a href="products1.html"><span class="icon">››</span></a>
+                    <span class="last">Last »</span>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-center">
+                    <h3>EXTRAS</h3>
+                    <a href="#">Brands</a>
+                    <a href="#">Gift Certificates</a>
+                    <a href="#">Affiliate</a>
+                    <a href="#">Specials</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-center">
+                    <h3>INFORMATION</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-center">
+                    <h3>MY ACCOUNT</h3>
+                    <a href="#">My Account</a>
+                    <a href="#">Order History</a>
+                    <a href="#">Wish List</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">Returns</a>
+                </div>
+                <div class="footer-center">
+                    <h3>CONTACT US</h3>
+                    <div>
+                        <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span> 42 Dream House, Dreammy street, 7131 Dreamville, USA
+                    </div>
+                    <div>
+                        <span>
+              <i class="far fa-envelope"></i>
+            </span> crazy-buyers@gmail.com
+                    </div>
+                    <div>
+                        <span>
+              <i class="fas fa-phone"></i>
+            </span> 456-456-4512
+                    </div>
+                    <div class="payment-methods">
+                        <img src="./images/payment.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Custom Scripts -->
+    <script src="./js/products.js"></script>
+    <script>
+        const glide1 = document.getElementById("glide1");
+
+        if (glide1)
+            new Glide(glide1, {
+                type: "carousel",
+                startAt: 0,
+                perView: 5,
+                hoverpause: false,
+                autoplay: 2000,
+                animationDuration: 800,
+                animationTimingFunc: "cubic-bezier(0.165, 0.840, 0.440, 1.000)",
+                breakpoints: {
+                    1200: {
+                        perView: 3,
+                    },
+                    768: {
+                        perView: 2,
+                    },
+                },
+            }).mount();
+    </script>
+    <script>
+        const openNav = document.querySelector(".open-btn");
+        const closeNav = document.querySelector(".close-btn");
+        const menu = document.querySelector(".nav-list");
+
+        const menuLeft = menu.getBoundingClientRect().left;
+        openNav.addEventListener("click", () => {
+            if (menuLeft < 0) {
+                menu.classList.add("show");
+            }
+        });
+
+        closeNav.addEventListener("click", () => {
+            if (menuLeft < 0) {
+                menu.classList.remove("show");
+            }
+        });
+
+        // Fixed Nav
+        const navBar = document.querySelector(".nav");
+        const navHeight = navBar.getBoundingClientRect().height;
+        window.addEventListener("scroll", () => {
+            const scrollHeight = window.pageYOffset;
+            if (scrollHeight > navHeight) {
+                navBar.classList.add("fix-nav");
+            } else {
+                navBar.classList.remove("fix-nav");
+            }
+        });
+
+        // Scroll To
+        const links = [...document.querySelectorAll(".scroll-link")];
+        links.map(link => {
+            if (!link) return;
+            link.addEventListener("click", e => {
+                e.preventDefault();
+
+                const id = e.target.getAttribute("href").slice(1);
+
+                const element = document.getElementById(id);
+                const fixNav = navBar.classList.contains("fix-nav");
+                let position = element.offsetTop - navHeight;
+
+                window.scrollTo({
+                    top: position,
+                    left: 0,
+                });
+
+                navBar.classList.remove("show");
+                menu.classList.remove("show");
+                document.body.classList.remove("show");
+            });
+        });
+    </script>
+</body>
+
+</html>
